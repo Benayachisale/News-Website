@@ -1,0 +1,49 @@
+    @font-face{
+  font-family:"bold";
+  src:url('../fonts/Garet-Heavy.otf');
+}
+@font-face{
+  font-family:"light";
+  src:url('../fonts/regular.OTF');
+}
+
+
+@font-face{
+  font-family:"italic";
+  src:url('../fonts/italic.OTF');
+}
+
+*{
+  font-family:light;
+}
+  .bold{
+  font-family:bold;
+}
+.light{
+  font-family:light;
+}
+.italic{
+    font-family:italic;
+}      /* Custom styles */
+        .hero-section {
+            background-image:url('https://img.freepik.com/premium-photo/flag-malawi-as-background_454892-1300.jpg');
+            background-size:cover;
+            background-repeat:no-repeat;
+            background-position-x:40%;
+            background-origin:center;
+            color: white;
+            padding: 50px 0;
+        }
+        .news-card img {
+            height: 200px;
+            object-fit: cover;
+        }
+        .footer {
+            background-color: #343a40;
+            color: white;
+            padding: 40px 0;
+        }
+        .navbar-brand img {
+            height: 40px;
+        }
+    
